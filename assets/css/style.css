@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.py-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media (max-width:575.98px) {
+    .sm-screen {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background-color: beige;
+        transition: all 200ms linear;
+    }
+
+    input[type="checkbox"]:checked~ul.sm-screen {
+        right: 0;
+    }
+
+    label[for="menuIcon"] {
+        width: 30px;
+        height: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 1;
+    }
+
+    label[for="menuIcon"]>span {
+        width: 100%;
+        height: 5px;
+        background-color: red;
+    }
+}

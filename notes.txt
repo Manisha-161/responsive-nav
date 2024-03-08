@@ -1,0 +1,27 @@
+width 
+min-width start
+max-width end 
+
+tyeps of selector?
+HTML semantic?
+
+format
+    kisi page ko hum responsive bna sakte hain
+    responsive
+    container
+        row
+            col
+
+breakpoints
+          575px
+    SM >= 576px 767.98px
+    MD >= 768px 991.98px
+    LG >= 992px 1199.98px
+    XL >= 1200px 1399.98px
+    2XL >= 1400px
+   
+HTML form
+    input types?
+    lable
+
+    
